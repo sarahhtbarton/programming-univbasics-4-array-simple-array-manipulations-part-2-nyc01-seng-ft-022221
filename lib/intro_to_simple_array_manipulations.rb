@@ -20,7 +20,7 @@ end
 puts using_flatten([ 1, 2, [3, [4, 5] ] ])
 
 def using_delete(array, string)
-  new_array = array.delete(string)
-  return new_array
+  array.delete(string)
+  return array
 end
 puts using_delete([ "a", "b", "b", "b", "c" ], 'b')
