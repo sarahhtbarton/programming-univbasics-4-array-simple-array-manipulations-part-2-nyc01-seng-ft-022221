@@ -27,6 +27,6 @@ puts using_delete([ "a", "b", "b", "b", "c" ], 'b')
 
 def using_delete_at(array, integer)
   array.delete_at(integer) #=> returns a
-  return array
+  #return array
 end
 puts using_delete_at([ "a", "b", "b", "b", "c" ], 0)
