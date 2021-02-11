@@ -9,3 +9,8 @@ def using_insert(array, element)
 end
 puts using_insert([1, 2, 3, 4, 5, 6], 9)
 
+def using_uniq(array)
+  return array.uniq
+end
+puts using_uniq([7, 7, 7, 11, 11, 11])
+
