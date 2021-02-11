@@ -8,3 +8,4 @@ def using_insert(array, element)
   return array
 end
 puts using_insert([1, 2, 3, 4, 5, 6], 9)
+
