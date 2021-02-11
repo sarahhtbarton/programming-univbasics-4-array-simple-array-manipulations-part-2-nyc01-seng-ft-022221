@@ -21,3 +21,5 @@ puts using_flatten([ 1, 2, [3, [4, 5] ] ])
 
 def using_delete(array, string)
   
+end
+puts using_delete([ "a", "b", "b", "b", "c" ], 'b')
