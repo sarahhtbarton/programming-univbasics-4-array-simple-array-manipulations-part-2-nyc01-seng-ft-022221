@@ -14,3 +14,5 @@ def using_uniq(array)
 end
 puts using_uniq([7, 7, 7, 11, 11, 11])
 
+def using_flatten(array)
+  
