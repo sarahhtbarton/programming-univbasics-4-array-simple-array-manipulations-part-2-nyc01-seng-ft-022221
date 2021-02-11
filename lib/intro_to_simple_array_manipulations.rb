@@ -7,4 +7,4 @@ def using_insert(array, element)
   array.insert(4, element)
   return array
 end
-puts using_concat([1, 2, 3, 4, 5, 6], 9)
+puts using_insert([1, 2, 3, 4, 5, 6], 9)
